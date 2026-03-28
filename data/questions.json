@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the difference between a list and a tuple in Python?",
+    "answer": "A list is mutable while a tuple is immutable. Lists are usually used for data that changes, tuples for fixed records.",
+    "tag": "basics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Why is pathlib often preferred over manual string paths?",
+    "answer": "pathlib provides safer, clearer, and cross-platform path handling with object-oriented APIs.",
+    "tag": "automation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does pandas groupby help you do?",
+    "answer": "It lets you split data into groups, apply aggregations, and combine results for analysis.",
+    "tag": "data",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why should AI application outputs be reviewed by a human before action?",
+    "answer": "Model output can be incomplete or wrong. Human review helps catch mistakes and align actions with context and policy.",
+    "tag": "ai",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the role of requests in public data workflows?",
+    "answer": "requests handles HTTP communication so you can retrieve public HTML pages or API responses before parsing them.",
+    "tag": "collection",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between shallow copy and deep copy?",
+    "answer": "A shallow copy duplicates the outer container but keeps references to nested objects, while a deep copy recursively copies nested objects too.",
+    "tag": "basics",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is argparse useful in automation scripts?",
+    "answer": "It helps turn a one-off script into a reusable command-line tool with clear inputs and help text.",
+    "tag": "automation",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What should you do before exporting analysis results to stakeholders?",
+    "answer": "Validate the data source, double-check key metrics, and make sure the output highlights actionable insights instead of raw numbers only.",
+    "tag": "data",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Why is separating fetching, parsing, and cleaning logic valuable in public data collection projects?",
+    "answer": "It keeps responsibilities clear, makes testing easier, and lets you reuse each stage independently when page structure or source changes.",
+    "tag": "collection",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a good first step before integrating a live LLM API into a new workflow?",
+    "answer": "Build and validate the workflow with deterministic local data or a mock provider first, so the product logic is clear before model variability is introduced.",
+    "tag": "ai",
+    "difficulty": "medium"
+  }
+]

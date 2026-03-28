@@ -1,0 +1,19 @@
+name: smoke-test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run interview smoke tests
+        shell: bash
+        run: |
+          printf '\n' | python quiz.py --tag ai --limit 1
+          python study_plan.py --target automation --weeks 4

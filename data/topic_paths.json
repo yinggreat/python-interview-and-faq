@@ -1,0 +1,22 @@
+{
+  "targets": [
+    {
+      "slug": "automation",
+      "title": "自动化方向",
+      "focus_tags": ["basics", "automation"],
+      "advice": "优先理解文件处理、CLI、CSV 和报表生成，再讲如何把脚本做成可复用工具。"
+    },
+    {
+      "slug": "data",
+      "title": "数据分析方向",
+      "focus_tags": ["basics", "data"],
+      "advice": "重点练习 pandas 常见操作、指标表达和图表后的业务解释。"
+    },
+    {
+      "slug": "data-intelligence",
+      "title": "数据智能方向",
+      "focus_tags": ["collection", "data", "ai"],
+      "advice": "先打通采集、清洗、分析流程，再讲 AI 如何接到实际工作流中。"
+    }
+  ]
+}
